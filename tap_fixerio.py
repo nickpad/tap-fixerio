@@ -10,7 +10,7 @@ import backoff
 
 from datetime import date, datetime, timedelta
 
-base_url = 'https://api.fixer.io/'
+base_url = 'https://api.exchangeratesapi.io/'
 
 logger = singer.get_logger()
 session = requests.Session()
